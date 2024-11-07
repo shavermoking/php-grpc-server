@@ -1,0 +1,13 @@
+{
+    "require": {
+        "spiral/roadrunner-cli": "^2.6",
+        "spiral/roadrunner-grpc": "^3.4",
+        "symfony/http-client": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GRPC\\": "generated/GRPC",
+            "App\\": "src"
+        }
+    }
+}
